@@ -1,0 +1,53 @@
+        <!-- Offers Deals -->
+        <div class="container-fluid text-center 
+     text-light" style="background-color: black;">
+
+
+            <marquee behavior="scroll" direction="right" style="background: transparent;">
+                Get your first eye test at a
+                20% discounted price.</marquee>
+        </div>
+
+
+        <!-- Nav Bar Section -->
+        <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+
+            <div class="container-fluid nav-logo">
+                <div>
+                    <img class="ms-5 logo-elgant logo-cursor" src="images/logo-icon.jpg" alt="" height="45rem">
+                    <a class="navbar-brand ms-2 fw-bold pt-4 logo-cursor" id="elegant-vision">Elegant Vision</a>
+
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../aboutUs/pics/aboutus.html">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#our-services">Services</a>
+                        </li>
+                        <!-- prices removed -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../productpage/index.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#our-locations">Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>

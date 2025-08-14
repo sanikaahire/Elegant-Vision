@@ -1,0 +1,277 @@
+/* Offer */
+.offer {
+  background-color: #2c2c2c;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(23, 22, 22);
+  margin-bottom: 0px;
+  padding-bottom: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px; 
+  margin-top: 0px;
+}
+.nav-item a {
+  color: white;
+}
+
+.logo-cursor {
+  cursor: pointer;
+}
+#elegant-vision{
+  color: #fff;
+}
+
+.navbar-nav {
+  gap: 5px;
+}
+
+/* Back to top */
+.back-top {
+  background-color: #b3b3b3;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  line-height: 1rem;
+  padding: 0.5rem;
+}
+
+
+/* footer */
+#footer {
+  background-color: #535353;
+  /* Faint black background */
+  color: white;
+  /* padding: 40px 0; */
+  padding: 40px 0px 20px 0px;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  padding-bottom: 3px;
+}
+
+#footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#footer .footer-about,
+#footer .footer-links {
+  flex: 1 1 20%;
+  margin-bottom: 30px;
+}
+
+#footer .footer-about {
+  max-width: 250px;
+}
+
+#footer .footer-links h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+#footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-links ul li {
+  padding: 6px 0;
+}
+
+#footer .footer-links ul li a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+}
+
+#footer .footer-links ul li a:hover {
+  color: #ffc107;
+}
+
+#footer .social-links a {
+  display: inline-block;
+  background: transparent;
+  padding: 0;
+  margin-right: 4px;
+}
+
+#footer .social-links a img {
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover img {
+  transform: scale(1.1);
+}
+
+#footer .footer-contact p {
+  margin-bottom: 0;
+}
+
+#footer .footer-contact strong {
+  display: block;
+}
+
+#footer .footer-contact span {
+  color: #ffc107;
+}
+
+/* copyright */
+.copyright {
+  text-align: center; 
+  color: #dddddd;
+
+  justify-content: center;
+  align-items: center;
+}
+/* General Body Settings */
+body {
+  font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+}
+
+/* Contact Page Container */
+.contact-page {
+  max-width: 100%; 
+  /* width: 100%; */
+  background: #ffffff; 
+  border-radius: 15px; 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); 
+  padding-bottom: 20px;
+  min-height: 80vh;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  margin-right: 5rem;
+}
+
+/* Header Section */
+.contact-header {
+  text-align: center;
+  background: #e8dcc8; 
+  color: #000000;
+  padding: 30px 20px;
+  border-radius: 15px 15px 0 0; 
+}
+
+.contact-header h1 {
+  font-size: 2.5rem; 
+  margin-bottom: 10px;
+}
+
+.contact-header p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Main Contact Info */
+.main-contact p {
+  font-size: 1rem;
+}
+
+.main-contact a {
+  color: #f39c12; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-contact a:hover {
+  text-decoration: underline;
+}
+
+/* Below Sections */
+.below-sections {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.section {
+  flex: 1;
+  min-width: 270px;
+  background: #f9f9f9; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-height: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); 
+}
+
+.section h2 {
+  font-size: 1.8rem; 
+  color: #34495e; 
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #7f8c8d; 
+  margin-bottom: 15px;
+}
+
+.section a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3498db; 
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Links */
+.social {
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+  transition: transform 0.3s ease, opacity 0.2s ease;
+}
+
+.social img {
+  width: 50px; 
+  height: 65px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.social.facebook img {
+  width: 75px; 
+}
+
+.social:hover {
+  transform: scale(1.1); 
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+          

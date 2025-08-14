@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+.animation-container{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pexels-sougeovanesouza-5465841.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.ani-image img{
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    animation: fadeInLeft 2s ease;
+    transition: 0.2s ease;
+    
+}
+
+.ani-heading{
+    flex: 1;
+    color: white;
+    margin-left: 10rem;
+    animation: fadeInRight 2s ease;
+    transition: 0.2s ease;
+}
+
+.ani-heading h1 {
+    font-size: 4rem; /* Increase the font size */
+   
+}
+
+@media screen and (max-width: 768px) {
+    .animation-container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+        text-align: center; /* Center align text */
+    }
+
+    .ani-image {
+        margin-bottom: 2rem; /* Add space below the image */
+    }
+
+    .ani-heading {
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .ani-heading h1 {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ani-heading h1 {
+        font-size: 2rem;
+        margin-top: 2rem; /* Further adjust font size for very small screens */
+    }
+
+    .animation-container {
+        padding: 1rem; /* Reduce padding for very small screens */
+    
+    }
+
+    .ani-image {
+        height: 15vh; /* Adjust image size for very small screens */
+        width: 15vh;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

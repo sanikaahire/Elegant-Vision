@@ -1,0 +1,1097 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #E0DFDF99;
+}
+
+.hero-section {
+    background-color: #636363a0;
+    color: rgb(255, 255, 255);
+    /* padding: 100px 15px; */
+    text-align: center;
+    position: relative;
+}
+
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(224, 223, 223, 0.6);
+    z-index: 1;
+}
+
+.abt-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0px 0.5rem 0px;
+}
+
+.hero-section h1,
+.hero-section p {
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.section-title {
+    /* margin-top: 50px; */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1b0f01;
+}
+
+
+.extended-section {
+    background: url("C:\Users\admin\Desktop\abtus\img.17.avif") no-repeat center center/cover;
+    color: white;
+    padding: 50px 15px;
+    text-align: center;
+    position: relative;
+}
+
+.extended-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133, 133, 133);
+    z-index: 1;
+}
+
+.extended-section h2,
+.extended-section p {
+    position: relative;
+    z-index: 2;
+}
+
+
+.why-card {
+    background-color: #fff8f0;
+    border: 1px solid #e8e4df;
+    transition: transform 0.3s;
+}
+
+.why-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.carousel .carousel-inner img {
+    object-fit: cover;
+    height: 500px;
+}
+
+.team-slider {
+    position: relative;
+
+}
+
+.team-card {
+    border: rgb(228, 142, 49);
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-card img {
+    width: 40%;
+    height: auto;
+}
+
+h1:hover,
+h2:hover,
+h5:hover {
+    color: #ecb65e;
+    text-decoration: underline;
+}
+
+.why-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(77, 47, 2, 0.491);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card h5 {
+    color: #543905;
+    font-size: 1.2rem;
+}
+
+/* Apply styles to the image inside the team-card */
+.team-card img {
+    width: 400px;
+    /* Fixed width */
+    height: 70px;
+    /* Fixed height */
+    border: radius 30px;
+    /* Makes the image circular */
+    object-fit: cover;
+    /* Ensures the image fills the circle without distortion */
+    margin: auto;
+    /* Centers the image within the team card */
+}
+
+
+.team-card {
+    text-align: center;
+    /* Centers the text inside the card */
+    padding: 20px;
+    /* Adds padding around the content */
+}
+
+
+.team-card h3 {
+    margin-top: 15px;
+    /* Adds space above the name */
+}
+
+.team-card p {
+    color: #000000;
+    /* Adjust text color */
+    font-size: 14px;
+    /* Optional: adjust font size */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* for logo */
+.logo-cursor {
+    cursor: pointer;
+}
+
+/* for nav bar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(23, 22, 22);
+    margin-bottom: 0px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.navbar-nav {
+    gap: 5px;
+}
+
+/* Offer */
+.offer {
+    background-color: #2c2c2c;
+}
+
+/*Back to top*/
+.back-top {
+    background-color: #efeaea;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+}
+
+
+
+/* footer */
+#footer {
+    background-color: #535353;
+    /* Faint black background */
+    color: white;
+    /* padding: 40px 0; */
+    padding: 40px 0px 20px 0px;
+    font-size: 14px;
+}
+
+#footer .footer-top {
+    padding-bottom: 3px;
+}
+
+#footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer .footer-about,
+#footer .footer-links {
+    flex: 1 1 20%;
+    margin-bottom: 30px;
+}
+
+#footer .footer-about {
+    max-width: 250px;
+}
+
+#footer .footer-links h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 12px;
+}
+
+#footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-links ul li {
+    padding: 6px 0;
+}
+
+#footer .footer-links ul li a {
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+#footer .footer-links ul li a:hover {
+    color: #ffc107;
+}
+
+#footer .social-links a {
+    display: inline-block;
+    background: transparent;
+    padding: 0;
+    margin-right: 4px;
+}
+
+#footer .social-links a img {
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover img {
+    transform: scale(1.1);
+}
+
+#footer .footer-contact p {
+    margin-bottom: 0;
+}
+
+#footer .footer-contact strong {
+    display: block;
+}
+
+#footer .footer-contact span {
+    color: #ffc107;
+}
+
+/* copyright */
+.copyright {
+    text-align: center;
+    color: #dddddd;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/*for copyright*/
+.copyright {
+    text-align: center;
+    color: #dddddd;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/*for copyright*/
+.copyright {
+    text-align: center;
+    color: #dddddd;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* General Reset */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    position: relative;
+    height: 40%;
+    /* Full-screen height */
+    background: url('C:\Users\admin\Desktop\abtus\img.17.avif') no-repeat center center/cover;
+    /* Replace with your image */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 38, 38, 0.5);
+    /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 0 0 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #030202;
+    /* Button color */
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e8b498;
+    /* Hover effect */
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
+
+.carousel-item img {
+    height: 80vh;
+    /* Adjust height for a consistent look */
+    object-fit: cover;
+    /* Ensures the image covers the entire carousel area */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add a semi-transparent background */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Darker background on hover */
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    /* Rounded corners for a sleek design */
+}
+
+.carousel {
+    margin-top: 20px;
+    /* Add spacing above the carousel */
+}
+
+/* Enhance the team member's name */
+.team-card h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #5e5b34;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Enhance the team member's description */
+.team-card p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #7f8c8d;
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+
+.img-team {
+    box-shadow: 6px 6px 10px grey;
+    border-radius: 20px;
+}
+
+/* Hover effect on the name */
+.team-card h3:hover {
+    color: #e7a03c;
+    text-decoration: underline;
+}
+
+
+#carousel .section-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Horizontal, vertical, blur radius, and color */
+}
+
+#our-story .section-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Horizontal, vertical, blur radius, and color */
+}
+
+#why-choose-us .section-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Horizontal, vertical, blur radius, and color */
+}
+
+#team .section-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Horizontal, vertical, blur radius, and color */
+}
+
+#our-history .section-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Horizontal, vertical, blur radius, and color */
+}
+
+#our-commitment .section-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Horizontal, vertical, blur radius, and color */
+}
+
+#hero-section .section-title {
+    text-shadow: 2px 2px 4px rgba(9, 8, 7, 0.141);
+}
+
+/* General Hero Section Styles */
+.hero-section {
+    position: relative;
+    background: url('C:\Users\admin\Desktop\abtus2\pics\img.17.avif') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(104, 104, 104, 0.5);
+    /* Semi-transparent overlay */
+    z-index: 2;
+}
+
+/* Styling for the Learn More Button */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #e8ab4f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #150e02;
+}
+
+/* Make the button responsive */
+@media (max-width: 768px) {
+    .cta-button {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Screen Sizes (mobile) */
+@media (max-width: 480px) {
+    .cta-button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-card img {
+        max-width: 150px;
+    }
+
+    .team-card h3 {
+        font-size: 18px;
+    }
+
+    .team-card p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        text-align: center;
+    }
+}
+
+/* Ensure logo resizes for smaller screens */
+@media (max-width: 768px) {
+    .logo-elgant {
+        height: 40px;
+        /* Adjust logo size for mobile */
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+        /* Adjust the brand name font size for mobile */
+    }
+}
+
+/* Align navbar items and make it more mobile-friendly */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        /* Center-align navbar items on smaller screens */
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+        /* Space out nav items */
+    }
+}
+
+/* Collapse navbar items when the screen size is less than 992px */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #343a40;
+        /* Optional: Add background color to the navbar when collapsed */
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+        /* Change the border color of the toggler */
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+        /* Toggler icon color */
+    }
+}
+
+/* For extra small devices (phones) */
+@media (max-width: 576px) {
+    .navbar-nav {
+        font-size: 0.9rem;
+        /* Slightly reduce font size on very small devices */
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+        /* Adjust brand font size */
+    }
+}
+
+
+/* Make carousel images responsive */
+#carousel .carousel-item img {
+    width: 100%;
+    /* Ensure the image takes full width of the container */
+    height: auto;
+    /* Maintain aspect ratio of the image */
+}
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    #carousel .carousel-item img {
+        height: 300px;
+        /* Adjust height for smaller screens to fit better */
+    }
+}
+
+/* For screens larger than 992px (larger screens like laptops/desktops) */
+@media (min-width: 992px) {
+    #carousel .carousel-item img {
+        height: 500px;
+        /* Ensure the height is bigger for larger screens */
+    }
+}
+
+/* Adjust carousel indicators for better accessibility on smaller screens */
+@media (max-width: 768px) {
+    .carousel-indicators {
+        position: absolute;
+        bottom: 15px;
+        /* Adjust position to keep indicators visible on mobile */
+    }
+
+    .carousel-indicators button {
+        width: 10px;
+        height: 10px;
+        /* Make the indicators smaller on mobile */
+        border-radius: 50%;
+    }
+}
+
+/* Adjust carousel controls (previous/next buttons) for smaller screens */
+@media (max-width: 768px) {
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Make arrows more visible */
+        width: 30px;
+        height: 30px;
+        /* Reduce the size of the controls */
+    }
+}
+
+/* Optional: To avoid overflow on very small screens, ensure proper image fit */
+@media (max-width: 576px) {
+    #carousel .carousel-item img {
+        object-fit: cover;
+        /* Ensure the image covers the area without distortion */
+        height: 250px;
+        /* Set a specific height for very small screens */
+    }
+}
+
+/* Make the images responsive inside the cards */
+#why-choose-us .why-card img {
+    width: 100%;
+    /* Ensure the images scale within the cards */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    #why-choose-us .card {
+        margin-bottom: 20px;
+        /* Add space between cards for mobile */
+    }
+
+    #why-choose-us .row {
+        flex-direction: column;
+        /* Stack the cards vertically on small screens */
+        align-items: center;
+        /* Center-align the cards */
+    }
+
+    #why-choose-us .col-md-4 {
+        width: 100%;
+        /* Make each card take full width on smaller screens */
+    }
+}
+
+/* For screens larger than 992px (laptops/desktops) */
+@media (min-width: 992px) {
+    #why-choose-us .card {
+        margin-bottom: 30px;
+        /* Add some space between the cards */
+    }
+
+    #why-choose-us .row {
+        display: flex;
+        /* Keep the cards in a row for larger screens */
+        justify-content: space-between;
+        /* Distribute space evenly between cards */
+    }
+}
+
+/* For extra small devices (phones) */
+@media (max-width: 576px) {
+    #why-choose-us .card-body {
+        padding: 1rem;
+        /* Reduce the padding inside cards for smaller screens */
+    }
+
+    #why-choose-us .card-title {
+        font-size: 1.1rem;
+        /* Slightly reduce the font size of card titles */
+    }
+
+    #why-choose-us .card-text {
+        font-size: 0.9rem;
+        /* Slightly reduce the font size of card text */
+    }
+}
+
+/* Ensure the section title is responsive */
+#our-story .section-title {
+    font-size: 2rem;
+    /* Default font size for larger screens */
+}
+
+/* Make the paragraph text responsive */
+#our-story p {
+    font-size: 1.1rem;
+    /* Default font size for readability */
+    line-height: 1.6;
+    /* Ensure good line height for readability */
+}
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    #our-story .section-title {
+        font-size: 1.5rem;
+        /* Reduce the font size of the section title on smaller screens */
+    }
+
+    #our-story p {
+        font-size: 1rem;
+        /* Reduce the font size of paragraph text */
+        padding-left: 15px;
+        padding-right: 15px;
+        /* Add some padding to ensure text doesn't touch the edges on smaller screens */
+    }
+}
+
+/* For extra small devices (phones) */
+@media (max-width: 576px) {
+    #our-story .section-title {
+        font-size: 1.2rem;
+        /* Further reduce title size for small screens */
+    }
+
+    #our-story p {
+        font-size: 0.9rem;
+        /* Reduce paragraph text size */
+        padding-left: 10px;
+        padding-right: 10px;
+        /* Further adjust text padding for very small devices */
+    }
+}
+
+/* Ensure the section title is responsive */
+#our-history .section-title {
+    font-size: 2rem;
+    /* Default font size for larger screens */
+}
+
+/* Make the paragraph text responsive */
+#our-history p {
+    font-size: 1.15rem;
+    /* Default font size for readability */
+    line-height: 1.6;
+    /* Ensure good line height for readability */
+    text-align: justify
+}
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    #our-history .section-title {
+        font-size: 1.5rem;
+        /* Reduce the font size of the section title on smaller screens */
+    }
+
+    #our-history p {
+        font-size: 1rem;
+        /* Reduce the font size of paragraph text */
+        padding-left: 15px;
+        padding-right: 15px;
+        /* Add some padding to ensure text doesn't touch the edges on smaller screens */
+    }
+}
+
+/* For extra small devices (phones) */
+@media (max-width: 576px) {
+    #our-history .section-title {
+        font-size: 1.2rem;
+        /* Further reduce title size for small screens */
+    }
+
+    #our-history p {
+        font-size: 0.9rem;
+        /* Reduce paragraph text size */
+        padding-left: 10px;
+        padding-right: 10px;
+        /* Further adjust text padding for very small devices */
+    }
+}
+
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+        /* Reduce title font size for smaller screens */
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+        /* Reduce paragraph font size */
+    }
+
+    .hero-section .cta-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+/* For extra small devices (phones) */
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 1.5rem;
+        /* Further reduce the title font size */
+    }
+
+    .hero-section p {
+        font-size: 0.9rem;
+        /* Reduce paragraph text size */
+    }
+
+    .hero-section .cta-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+        /* Adjust padding for very small devices */
+    }
+}
+
+/* new */
+/*animation -  hero */
+.animation-container {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pexels-sougeovanesouza-5465841.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.ani-image img {
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    animation: fadeInLeft 2s ease;
+    transition: 0.2s ease;
+
+}
+
+.ani-heading {
+    flex: 1;
+    color: white;
+    margin-left: 9rem;
+    animation: fadeInRight 2s ease;
+    transition: 0.2s ease;
+}
+
+.ani-heading h1 {
+    font-size: 4rem;
+}
+
+/*  media query responsive*/
+@media screen and (max-width: 768px) {
+    .animation-container {
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: center;
+        /* Center align items */
+        text-align: center;
+        /* Center align text */
+    }
+
+    .ani-image {
+        margin-bottom: 2rem;
+        /* Add space below the image */
+    }
+
+    .ani-heading {
+        margin-left: 0;
+        /* Remove left margin */
+    }
+
+    .ani-heading h1 {
+        font-size: 2.5rem;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ani-heading h1 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        /* Further adjust font size for very small screens */
+    }
+
+    .animation-container {
+        padding: 1rem;
+        /* Reduce padding for very small screens */
+
+    }
+
+    .ani-image {
+        height: 15vh;
+        /* Adjust image size for very small screens */
+        width: 15vh;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Stats */
+
+/*--------------------------------------------------------------
+# Stats Counter Section
+--------------------------------------------------------------*/
+.stats-counter .container {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute space between items */
+    align-items: center;
+    /* Center align items vertically */
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+}
+
+.stats-counter .stats-item {
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: white;
+    /* Add background color if needed */
+    flex: 1;
+    /* Allow items to grow and shrink */
+    margin: 10px;
+    /* Add margin between items */
+    display: flex;
+    align-items: center;
+}
+
+.stats-counter .stats-item i {
+    color: var(--accent-color);
+    font-size: 42px;
+    line-height: 0;
+    margin-right: 20px;
+}
+
+.stats-counter .stats-item span {
+    color: var(--heading-color);
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+}
+
+#counter1.counter {
+    color: #333;
+}
+
+#counter2.counter {
+    color: #333;
+}
+
+#counter3.counter {
+    color: #333;
+}
+
+#counter4.counter {
+    color: #333;
+}
+
+.stats-counter .stats-item p {
+    padding: 0;
+    margin: 0;
+    font-family: var(--heading-font);
+    font-size: 16px;
+    color: #4f4f4f;
+}
+
+.stats-counter .stats-item {
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: white;
+    /* Add background color if needed */
+    flex: 1;
+    /* Allow items to grow and shrink */
+    margin: 10px;
+    /* Add margin between items */
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    /* Set a fixed width for consistency */
+    text-align: center;
+    /* Center align text */
+}
+
+.stats-counter .stats-item i {
+    color: var(--accent-color);
+    font-size: 42px;
+    line-height: 0;
+    margin-right: 20px;
+}
+
+
+.stats-counter .stats-item p {
+    padding: 0;
+    margin: 0;
+    font-family: var(--heading-font);
+    font-size: 16px;
+    word-wrap: break-word;
+    /* Ensure text wraps properly */
+}
